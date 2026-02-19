@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-migrationhuborchestrator`](https://www.npmjs.com/package/@aws-sdk/client-migrationhuborchestrator/v/3.267.0).
+[`@aws-sdk/client-migrationhuborchestrator`](https://www.npmjs.com/package/@aws-sdk/client-migrationhuborchestrator/v/3.271.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-migrationhuborchestrator@3.267.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-migrationhuborchestrator@3.271.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-nX3na4YpVrnccZORkB7D6rNilpcGyU4mipjKJfo6hxhbhJ5puPHzpbWeEUWbvsYM
+sha384-DgX5Fv/xVJ1W/4csgnGf0JVa+s6ddR2qqKjhSv01j+SK0cfJ7KMgeCfRgVbvGIw4
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-migrationhuborchestrator": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-migrationhuborchestrator@3.267.0/index.min.mjs"
+            "@aws-sdk/client-migrationhuborchestrator": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-migrationhuborchestrator@3.271.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-migrationhuborchestrator@3.267.0/index.min.mjs": "sha384-nX3na4YpVrnccZORkB7D6rNilpcGyU4mipjKJfo6hxhbhJ5puPHzpbWeEUWbvsYM"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-migrationhuborchestrator@3.271.0/index.min.mjs": "sha384-DgX5Fv/xVJ1W/4csgnGf0JVa+s6ddR2qqKjhSv01j+SK0cfJ7KMgeCfRgVbvGIw4"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-migrationhuborchestrator": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-migrationhuborchestrator@3.267.0/index.min.mjs"
+                        "@aws-sdk/client-migrationhuborchestrator": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-migrationhuborchestrator@3.271.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-migrationhuborchestrator@3.267.0/index.min.mjs": "sha384-nX3na4YpVrnccZORkB7D6rNilpcGyU4mipjKJfo6hxhbhJ5puPHzpbWeEUWbvsYM"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-migrationhuborchestrator@3.271.0/index.min.mjs": "sha384-DgX5Fv/xVJ1W/4csgnGf0JVa+s6ddR2qqKjhSv01j+SK0cfJ7KMgeCfRgVbvGIw4"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.267.0`)
+* Always pin to a specific version (`@3.271.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-migrationhuborchestrator/blob/refs/tags/3.267.0/LICENSE
+https://github.com/cloud-sdk-builds/client-migrationhuborchestrator/blob/refs/tags/3.271.0/LICENSE
 ```
 
 ---
